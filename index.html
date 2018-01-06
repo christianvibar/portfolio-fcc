@@ -5,12 +5,196 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 	<!-- link to css files goes here -->
 	<link rel="stylesheet" href="styles/style.css">
-	<link rel="stylesheet" href="styles/login-css.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/aef7619923.js"></script>
 	<title>FCC Portfolio Project</title>
 </head>
 <body>
 	<!-- code goes here -->
+	<!--Navbar Section-->
+<nav class="navbar navbar-toggleable-sm navbar-custom navbar-light bg-faded">
+  <div class="container">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="mainNav" class="navbar-collapse collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about-section">About <span class="sr-only">(current)</span></a>
+         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills-section">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio-section">Portfolio</a>
+        </li>
+        <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--About Section-->   
+<div class="container-fluid" id="about-section">
+  <div class="row">
+    <div class="col-md-6"><h1>Hi, I'm Christian.</h1>
+      <p>I'm a front-end developer who has worked with digital marketing agencies for 7 years. I'm passionate in helping eCommerce and SaaS companies achieve growth by developing websites that drive conversions.</p>
+      
+      <div class="btn-group">
+        <a class="btn btn-primary btn-margin" href="https://twitter.com/cafvibar" target="_blank">Twitter</a>
+        <a href="https://ph.linkedin.com/in/christian-alan-vibar-18a93776" class="btn btn-primary btn-margin" target="_blank">LinkedIn</a>
+        <a href="https://github.com/christianvibar" class="btn btn-primary btn-margin" target="_blank">GitHub</a>
+        <a href="https://www.freecodecamp.org/christianvibar" class="btn btn-primary btn-margin" target="_blank">freeCodeCamp</a>
+      </div>
+    </div>
+      
+      <!--
+      <button type="button" class="btn btn-margin">Twitter</button>
+      <button type="button" class="btn btn-margin">LinkedIn</button>
+      <button type="button" class="btn btn-margin">GitHub</button>
+      <button type="button" class="btn btn-margin">freeCodeCamp</button>
+    </div>
+    -->
+  
+    <div class="col-md-6 text-center"><img class="img-fluid" id="header-img" src="https://photos-2.dropbox.com/t/2/AABvyGDB-yvAcmKzdiIo-3-w67SMq-8QDNM2o2syF_tgjA/12/170935637/jpeg/32x32/1/_/1/2/16388694_10210392036736245_355300109_o.jpg/EPOZpYIBGNJBIAcoBw/gIONmy0IBvF752FsuhQlUSvwJVD4aN-y_xrc7EPeKGc?size=1280x960&size_mode=3"></div>
+  </div>
+  </div>
+
+<!--Skills Section-->
+
+<div class="container-fluid" id="skills-section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">SKILLS<hr style="width:100px; border-color: #212529; border-width: 5px;"/></h2></div>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+    <h3>Front-End Development</h3>
+    <p>I am skilled in HTML, CSS, jQuery, and currently learning Javascript. I have experience working in various content management software such as Shopify, Wordpress, and Hubspot, where I helped build eCommerce pages and lead capture pages. I am usually involved in creating pages from start to finish: building wireframes, copywriting, design creation, up to the actual development.</p>
+    <h3>Growth Management/Growth Hacking</h3>
+    <p>I currently work as a Growth Manager for Monolith Growth Consulting. I have extensive experience in pay-per-click ads, email marketing, and search engine optimization. My best achievements include bringing 16:1 ROI to our clients in the eCommerce space and 19:1 ROI to our clients in the B2B space through a combination of paid and unpaid digital marketing efforts.</p>
+    <h3>Project Management</h3>
+    <p>I am fortunate to be surrounded by a team that values delivering quality results in the most efficient manner. I am experienced in working with agile teams and with the scrum methodology. This taught me how to break down a large goal into small acheivable tasks that we can accomplish week on week.</p></div>
+<div class="col-md-2"></div>
+  </div>
+</div>
+
+<!--Portfolio-->
+<div class="container-fluid" id="portfolio-section">
+  <div class="row">
+    <div class="col-md-12"><h2 class="text-center">PORTFOLIO<hr style="width:180px; border-color:#212529; border-width:5px;"></h2><br><br></div>
+  </div>
+</div>
+    
+<!--Portfolio Cards-->
+<div class="container pb-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+        <div class="card-block">
+          <h3 class="card-title text-center">Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+    
+	<div class="col-md-4">
+	  <div class="card">
+	    <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+	    <div class="card-block">
+	      <h3 class="card-title text-center">Project 2</h3>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    </div>
+	  </div>
+	 </div>
+            
+	<div class="col-md-4">
+	  <div class="card">
+	    <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+	    <div class="card-block">
+	      <h3 class="card-title text-center">Project 3</h3>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    </div>
+	  </div>
+	</div>
+  </div>
+      
+  <div class="row pt-5">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+        <div class="card-block">
+          <h3 class="card-title text-center">Project 4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+        
+  <div class="col-md-4">
+   <div class="card">
+    <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+    <div class="card-block">
+      <h3 class="card-title text-center">Project 5</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+ </div>
+            
+ <div class="col-md-4">
+  <div class="card">
+    <img src="http://via.placeholder.com/318x180" class="card-img-top img-fluid"/>
+    <div class="card-block">
+      <h3 class="card-title text-center">Project 6</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+   
+
+<!--Contact-->
+<div class="container-fluid" id="contact-section">
+  <div class="row">
+    <div class="col-md-12"><h2 class="text-center">CONTACT<hr style="width:150px; border-color:#212529; border-width:5px;"/></h2>
+      <h4 class="text-center"><i class="fa fa-envelope"></i>&nbsp;christian.vibar@gmail.com</h4><br/>
+      <h4 class="text-center"><i class="fa fa-mobile"></i>&nbsp;+63916252649</h4><br/>
+   </div>
+ </div>
+ 
+  <!--Contact Form-->
+    <div class="form-group row">
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+      <label for="name-input" class="col-form-label">*Name</label>
+        <input class="form-control" type="text" required="true" placeholder="Enter name here..." id="name-input">
+      </div>
+      
+      <div class="col-md-4">
+      <label for="email-input" class="col-form-label">*Your email...</label>
+        <input class="form-control" type="email" required="true" placeholder="Enter email here..." id="email-input">
+      </div>
+      <div class="col-md-2"></div>
+</div>
+  
+  <div class="form-group row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+    <label for="text-area">*How may I help?</label>
+    <textarea type="text" class="form-control" id="text-area" rows="5" required></textarea>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+    
+  <div class="row pb-5">
+  <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <button type="Submit" class="btn btn-primary">SEND MESSAGE</button></div>
+      <div class="col-md-2"></div>
+  </div>
+  
 
 
 

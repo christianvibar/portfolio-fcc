@@ -1,0 +1,62 @@
+/*Font Styles*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto:400,400i,500,500i');
+
+/*change navbar background color*/
+.navbar-custom {
+  background-color: #f3f5f9;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+#about-section {
+  background-color: #f3f5f9;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.about-description {
+  margin-left: 30px;
+}
+
+#header-img {
+  height: 331px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.btn-margin {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: #0084d3 !important;
+  border-color: #0084d3 !important;
+}
+
+/*Skills Section*/
+#skills-section {
+  padding-top: 30px !important;
+}
+
+h3 {
+  padding-top: 15px;
+}
+
+/*Portfolio Section*/
+#portfolio-section {
+  padding-top: 50px !important;
+}
+
+.thumbnail-push {
+  margin-left: 70px !important;
+}
+
+.img-thumbnail {
+  margin-right: 60px !important;
+}
